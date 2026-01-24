@@ -1,0 +1,835 @@
+		img:is([sizes="auto" i], [sizes^="auto," i]) {
+			contain-intrinsic-size: 3000px 1500px
+		}
+        @font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 100;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3moJow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 200;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUXmsJow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 300;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUgGsJow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 400;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3msJow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 500;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU7GsJow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 600;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUAGwJow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 700;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUOWwJow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 800;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUXmwJow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 900;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUd2wJow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 100;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nWNig.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 200;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K8nXNig.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 300;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32KxfXNig.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXNig.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 500;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K3vXNig.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 600;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K5fQNig.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 700;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QNig.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 800;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K8nQNig.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 900;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K-DQNig.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Belleza';
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/belleza/v18/0nkoC9_pNeMfhX4BhcH4bw.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Comic Neue';
+			font-style: italic;
+			font-weight: 300;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/comicneue/v9/4UaarEJDsxBrF37olUeD96_RTplkLCNG.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Comic Neue';
+			font-style: italic;
+			font-weight: 400;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/comicneue/v9/4UaFrEJDsxBrF37olUeD96_Z5bt0.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Comic Neue';
+			font-style: italic;
+			font-weight: 700;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/comicneue/v9/4UaarEJDsxBrF37olUeD96_RXp5kLCNG.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Comic Neue';
+			font-style: normal;
+			font-weight: 300;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/comicneue/v9/4UaErEJDsxBrF37olUeD_wHL8pxUKw.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Comic Neue';
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/comicneue/v9/4UaHrEJDsxBrF37olUeD96rp4g.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Comic Neue';
+			font-style: normal;
+			font-weight: 700;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/comicneue/v9/4UaErEJDsxBrF37olUeD_xHM8pxUKw.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Didact Gothic';
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/didactgothic/v21/ahcfv8qz1zt6hCC5G4F_P4ASlUuYow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'MonteCarlo';
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/montecarlo/v13/buEzpo6-f9X01GadLA0G4C0f-A.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Outfit';
+			font-style: normal;
+			font-weight: 100;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC0O4a0Fg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Outfit';
+			font-style: normal;
+			font-weight: 200;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4bC1O4a0Fg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Outfit';
+			font-style: normal;
+			font-weight: 300;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4W61O4a0Fg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Outfit';
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1O4a0Fg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Outfit';
+			font-style: normal;
+			font-weight: 500;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4QK1O4a0Fg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Outfit';
+			font-style: normal;
+			font-weight: 600;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4e6yO4a0Fg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Outfit';
+			font-style: normal;
+			font-weight: 700;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyO4a0Fg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Outfit';
+			font-style: normal;
+			font-weight: 800;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4bCyO4a0Fg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Outfit';
+			font-style: normal;
+			font-weight: 900;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4ZmyO4a0Fg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Pinyon Script';
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/pinyonscript/v24/6xKpdSJbL9-e9LuoeQiDRQR8WOXaPw.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: italic;
+			font-weight: 100;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRuAj-lg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: italic;
+			font-weight: 200;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHQuAj-lg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: italic;
+			font-weight: 300;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAj-lg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: italic;
+			font-weight: 400;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: italic;
+			font-weight: 500;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: italic;
+			font-weight: 600;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLl_XuAj-lg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: italic;
+			font-weight: 700;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAj-lg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: italic;
+			font-weight: 800;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHXuAj-lg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: italic;
+			font-weight: 900;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXuAj-lg.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 100;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmUiA8.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 200;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEbVmUiA8.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 300;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 500;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 600;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYaalmUiA8.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 700;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 800;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEalmUiA8.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 900;
+			font-stretch: normal;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiA8.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto Slab';
+			font-style: normal;
+			font-weight: 100;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmb2Rm.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto Slab';
+			font-style: normal;
+			font-weight: 200;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDISmb2Rm.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto Slab';
+			font-style: normal;
+			font-weight: 300;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rm.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto Slab';
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto Slab';
+			font-style: normal;
+			font-weight: 500;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmb2Rm.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto Slab';
+			font-style: normal;
+			font-weight: 600;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOmb2Rm.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto Slab';
+			font-style: normal;
+			font-weight: 700;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto Slab';
+			font-style: normal;
+			font-weight: 800;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOmb2Rm.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Roboto Slab';
+			font-style: normal;
+			font-weight: 900;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoJYOmb2Rm.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Sen';
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/sen/v12/6xK0dSxYI9_dkN18-vZKK2EISCq5L4nAkA.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Sen';
+			font-style: normal;
+			font-weight: 500;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/sen/v12/6xK0dSxYI9_dkN18-vZKK2EISBi5L4nAkA.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Sen';
+			font-style: normal;
+			font-weight: 600;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/sen/v12/6xK0dSxYI9_dkN18-vZKK2EISPS-L4nAkA.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Sen';
+			font-style: normal;
+			font-weight: 700;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/sen/v12/6xK0dSxYI9_dkN18-vZKK2EISM2-L4nAkA.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Sen';
+			font-style: normal;
+			font-weight: 800;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/sen/v12/6xK0dSxYI9_dkN18-vZKK2EISKq-L4nAkA.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Snippet';
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/snippet/v21/bWt47f7XfQH9Gupu6vjKeQ.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'The Nautigal';
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/thenautigal/v8/VdGZAZ8ZH51Lvng9fQV2bfKb4A9g.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'The Nautigal';
+			font-style: normal;
+			font-weight: 700;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/thenautigal/v8/VdGGAZ8ZH51Lvng9fQV2bfKTWypw3PWG.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 100;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3mo5pIfd.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 200;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUXms5pIfd.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 300;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUgGs5pIfd.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 400;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3ms5pIfd.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 500;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU7Gs5pIfd.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 600;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUAGw5pIfd.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 700;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUOWw5pIfd.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 800;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUXmw5pIfd.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: italic;
+			font-weight: 900;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUd2w5pIfd.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 100;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nWBi8Jow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 200;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K8nXBi8Jow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 300;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32KxfXBi8Jow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBi8Jow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 500;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K3vXBi8Jow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 600;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K5fQBi8Jow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 700;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBi8Jow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 800;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K8nQBi8Jow.ttf) format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Work Sans';
+			font-style: normal;
+			font-weight: 900;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K-DQBi8Jow.ttf) format('truetype');
+		}
+	
+
+        /*! This file is auto-generated */
+		.wp-block-button__link {
+			color: #fff;
+			background-color: #32373c;
+			border-radius: 9999px;
+			box-shadow: none;
+			text-decoration: none;
+			padding: calc(.667em + 2px) calc(1.333em + 2px);
+			font-size: 1.125em
+		}
+
+		.wp-block-file__button {
+			background: #32373c;
+			color: #fff;
+			text-decoration: none
+		}
+
+        .wp-block-joinchat-button {
+			border: none !important;
+			text-align: center
+		}
+
+		.wp-block-joinchat-button figure {
+			display: table;
+			margin: 0 auto;
+			padding: 0
+		}
+
+		.wp-block-joinchat-button figcaption {
+			font: normal normal 400 .6em/2em var(--wp--preset--font-family--system-font, sans-serif);
+			margin: 0;
+			padding: 0
+		}
+
+		.wp-block-joinchat-button .joinchat-button__qr {
+			background-color: #fff;
+			border: 6px solid #25d366;
+			border-radius: 30px;
+			box-sizing: content-box;
+			display: block;
+			height: 200px;
+			margin: auto;
+			overflow: hidden;
+			padding: 10px;
+			width: 200px
+		}
+
+		.wp-block-joinchat-button .joinchat-button__qr canvas,
+		.wp-block-joinchat-button .joinchat-button__qr img {
+			display: block;
+			margin: auto
+		}
+
+		.wp-block-joinchat-button .joinchat-button__link {
+			align-items: center;
+			background-color: #25d366;
+			border: 6px solid #25d366;
+			border-radius: 30px;
+			display: inline-flex;
+			flex-flow: row nowrap;
+			justify-content: center;
+			line-height: 1.25em;
+			margin: 0 auto;
+			text-decoration: none
+		}
+
+		.wp-block-joinchat-button .joinchat-button__link:before {
+			background: transparent var(--joinchat-ico) no-repeat center;
+			background-size: 100%;
+			content: "";
+			display: block;
+			height: 1.5em;
+			margin: -.75em .75em -.75em 0;
+			width: 1.5em
+		}
+
+		.wp-block-joinchat-button figure+.joinchat-button__link {
+			margin-top: 10px
+		}
+
+		@media (orientation:landscape)and (min-height:481px),
+		(orientation:portrait)and (min-width:481px) {
+			.wp-block-joinchat-button.joinchat-button--qr-only figure+.joinchat-button__link {
+				display: none
+			}
+		}
+
+		@media (max-width:480px),
+		(orientation:landscape)and (max-height:480px) {
+			.wp-block-joinchat-button figure {
+				display: none
+			}
+		}

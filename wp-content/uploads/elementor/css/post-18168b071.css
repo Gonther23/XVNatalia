@@ -1,0 +1,50 @@
+.elementor-18168 .elementor-element.elementor-element-c0c9545:not(.elementor-motion-effects-element-type-background), .elementor-18168 .elementor-element.elementor-element-c0c9545 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FDF6F2;}.elementor-18168 .elementor-element.elementor-element-c0c9545 .trx_addons_bg_text{z-index:0;}.elementor-18168 .elementor-element.elementor-element-c0c9545 .trx_addons_bg_text.trx_addons_marquee_wrap:not(.trx_addons_marquee_reverse) .trx_addons_marquee_element{padding-right:50px;}.elementor-18168 .elementor-element.elementor-element-c0c9545 .trx_addons_bg_text.trx_addons_marquee_wrap.trx_addons_marquee_reverse .trx_addons_marquee_element{padding-left:50px;}.elementor-18168 .elementor-element.elementor-element-c0c9545{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-18168 .elementor-element.elementor-element-c0c9545 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-18168 .elementor-element.elementor-element-c7a0fba{--update-cart-automatically-display:none;--sections-background-color:#F7F5F1;--order-summary-quantity-border-color:#F7F5F1;--order-summary-quantity-border-weight:0px;--order-summary-remove-icon-normal-color:var( --e-global-color-86c068b );--totals-color:#000000;--checkout-button-border-radius:40px 40px 40px 40px;}.elementor-18168 .elementor-element.elementor-element-c7a0fba .woocommerce .wc-proceed-to-checkout .checkout-button{background-color:var( --e-global-color-86c068b );}.elementor-18168 .elementor-element.elementor-element-c7a0fba .cart_totals h2{font-family:"Kudryashev Display-Sans", Sans-serif;font-size:21px;}.elementor-18168 .elementor-element.elementor-element-c7a0fba .e-cart-content, .elementor-18168 .elementor-element.elementor-element-c7a0fba .woocommerce-shipping-destination, .elementor-18168 .elementor-element.elementor-element-c7a0fba .shipping-calculator-button{font-size:1px;}.elementor-18168 .elementor-element.elementor-element-c7a0fba .coupon .input-text, .elementor-18168 .elementor-element.elementor-element-c7a0fba .cart-collaterals .input-text, .elementor-18168 .elementor-element.elementor-element-c7a0fba select, .elementor-18168 .elementor-element.elementor-element-c7a0fba .select2-selection--single{font-family:"Work Sans", Sans-serif;font-size:1px;letter-spacing:-5px;}.elementor-18168 .elementor-element.elementor-element-c7a0fba .e-shop-table .cart th, .elementor-18168 .elementor-element.elementor-element-c7a0fba .e-shop-table .cart td:before{font-family:"Work Sans", Sans-serif;font-weight:500;}.elementor-18168 .elementor-element.elementor-element-c7a0fba .product-name .variation{font-size:1px;}.elementor-18168 .elementor-element.elementor-element-c7a0fba .cart_totals .shop_table td:before, .elementor-18168 .elementor-element.elementor-element-c7a0fba .cart_totals .shop_table td .woocommerce-Price-amount{font-family:"Work Sans", Sans-serif;font-weight:600;}.elementor-18168 .elementor-element.elementor-element-1550b480 .trx_addons_bg_text{z-index:0;}.elementor-18168 .elementor-element.elementor-element-1550b480 .trx_addons_bg_text.trx_addons_marquee_wrap:not(.trx_addons_marquee_reverse) .trx_addons_marquee_element{padding-right:50px;}.elementor-18168 .elementor-element.elementor-element-1550b480 .trx_addons_bg_text.trx_addons_marquee_wrap.trx_addons_marquee_reverse .trx_addons_marquee_element{padding-left:50px;}.elementor-18168 .elementor-element.elementor-element-b00299b{--spacer-size:50px;}.elementor-18168 .elementor-element.elementor-element-d870aef .trx_addons_bg_text{z-index:0;}.elementor-18168 .elementor-element.elementor-element-d870aef .trx_addons_bg_text.trx_addons_marquee_wrap:not(.trx_addons_marquee_reverse) .trx_addons_marquee_element{padding-right:50px;}.elementor-18168 .elementor-element.elementor-element-d870aef .trx_addons_bg_text.trx_addons_marquee_wrap.trx_addons_marquee_reverse .trx_addons_marquee_element{padding-left:50px;}body.elementor-page-18168:not(.elementor-motion-effects-element-type-background), body.elementor-page-18168 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FDF6F2;}/* Start custom CSS for woocommerce-cart, class: .elementor-element-c7a0fba */.woocommerce_status_bar {
+    display: none !important;
+}
+
+.woocommerce-cart-form, 
+.woocommerce-cart-form * {
+    color: #000000 !important; /* Set text color to black */
+}
+
+/* Hide the 'Eliminar' table header */
+th.product-remove {
+    display: none !important;
+}
+
+.woocommerce-notices-wrapper {
+    display: none !important;
+}/* End custom CSS */
+/* Start custom CSS *//* Hide the entire elementor-element-888663c section */
+.elementor-element-888663c {
+    display: none !important;
+}
+
+/* Hide the menu inside elementor-element-662417c */
+.elementor-element-662417c {
+    display: none !important;
+}
+
+/* Hide the button inside elementor-element-54af3ac */
+.elementor-element-54af3ac {
+    display: none !important;
+}
+
+
+/* Hide the div with elementor-element-6f47bca and its children */
+.elementor-element-6f47bca {
+    display: none !important;
+}
+
+/* Hide the div with elementor-element-47cc073 and its children */
+.elementor-element-47cc073 {
+    display: none !important;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Kudryashev Display-Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../../2024/06/KudryashevDisplay-Sans.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

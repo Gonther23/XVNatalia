@@ -1,0 +1,64 @@
+.elementor-widget-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centra horizontal */
+    justify-content: center; /* centra vertical */
+    text-align: center; /* centra el texto */
+}
+.elementor-element[data-id="2fbd9a0c"] {
+    display: flex;
+    justify-content: center;
+}
+
+.elementor-element[data-id="d0e373f"] {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* SVG base */
+.elementor-element[data-id="d0e373f"] img {
+    width: auto; /* ajusta si quieres */
+    animation: shake-soft 5s infinite;
+    transition: transform .2s ease;
+    transform-origin: center;
+}
+
+/* Sacudida suave */
+@keyframes shake-soft {
+    0% { transform: translateX(0) rotate(0); }
+    2% { transform: translateX(-2px) rotate(-2deg); }
+    4% { transform: translateX(2px) rotate(2deg); }
+    6% { transform: translateX(-2px) rotate(-1deg); }
+    8% { transform: translateX(2px) rotate(1deg); }
+    10% { transform: translateX(0) rotate(0); }
+
+    /* descanso largo */
+    100% { transform: translateX(0) rotate(0); }
+}
+
+
+
+
+
+
+.svg-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(255, 255, 255, 0.50); /* blanco casi transparente */
+  border-radius: 450px;
+
+  transition: 
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.svg-wrapper svg {
+  transition: transform 0.3s ease;
+}
+
+/* HOVER */
+.svg-wrapper:hover {
+  background-color: rgba(255, 255, 255, 1); /* blanco sólido */
+  transform: scale(1.08);
+}

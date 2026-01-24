@@ -1,0 +1,35 @@
+.elementor-kit-15{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-61c01e98:#4054B2;--e-global-color-13ed1179:#FFF;--e-global-color-86c068b:#68716E;--e-global-color-08bece1:#DDDCD6;--e-global-color-d05ede9:#AF8282;--e-global-color-74dec53:#857BB2;--e-global-color-f8e9231:#534315;--e-global-color-dcfe17a:#B1A591;--e-global-color-b1c0acb:#C0BEB4;--e-global-color-21f9168:#CAC7E4;--e-global-color-3794bf4:#E4D1D1;--e-global-color-f66395b:#C3C1D8;--e-global-color-4f5404e:#562D33;--e-global-color-f8dca47:#FFF7F9;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;--e-global-typography-6f8a756-font-family:"The Nautigal";--e-global-typography-6f8a756-font-style:italic;--e-global-typography-6f8a756-letter-spacing:2.5px;--e-global-typography-47b4aec-font-family:"Work Sans";--e-global-typography-47b4aec-font-size:14px;--e-global-typography-47b4aec-font-weight:400;--e-global-typography-47b4aec-text-transform:none;--e-global-typography-47b4aec-font-style:normal;--e-global-typography-47b4aec-text-decoration:none;--e-global-typography-47b4aec-line-height:1.5em;--e-global-typography-47b4aec-letter-spacing:0px;--e-global-typography-6e1566d-font-family:"Sen";--e-global-typography-6e1566d-font-size:14px;--e-global-typography-6e1566d-font-weight:400;--e-global-typography-6e1566d-text-transform:none;--e-global-typography-6e1566d-font-style:normal;--e-global-typography-6e1566d-text-decoration:none;--e-global-typography-6e1566d-line-height:1.5em;--e-global-typography-6e1566d-letter-spacing:0px;--e-global-typography-4bad933-font-family:"Snippet";--e-global-typography-4bad933-font-size:18px;--e-global-typography-36d64ad-font-family:"The Seasons";--e-global-typography-36d64ad-font-size:36px;--e-global-typography-88006b0-font-family:"MonteCarlo";--e-global-typography-88006b0-font-size:56px;--e-global-typography-88006b0-font-weight:400;--e-global-typography-88006b0-text-transform:none;--e-global-typography-7bc3077-font-family:"The Seasons";--e-global-typography-7bc3077-font-size:18px;--e-global-typography-7bc3077-font-weight:400;--e-global-typography-7bc3077-line-height:1.8em;}.elementor-kit-15 e-page-transition{background-color:#FFBC7D;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1200px;}.e-con{--container-max-width:1200px;}.elementor-widget:not(:last-child){margin-block-end:15px;}.elementor-element{--widgets-spacing:15px 15px;--widgets-spacing-row:15px;--widgets-spacing-column:15px;}{}.h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-kit-15{--e-global-typography-47b4aec-font-size:14px;--e-global-typography-6e1566d-font-size:14px;--e-global-typography-88006b0-font-size:1.8rem;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-kit-15{--e-global-typography-4bad933-font-size:18px;--e-global-typography-88006b0-font-size:56px;--e-global-typography-7bc3077-font-size:18px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */:root {
+  color-scheme: only light !important;
+}
+
+.trx_addons_scroll_to_top.show{
+    display: none !important;
+}
+
+@media (prefers-color-scheme: dark) {
+body {
+background-color: white; 
+color: black; 
+}
+}
+
+@media (max-width: 1679px)
+@media (max-width:479px)
+h1, h2, h3, h4, h5, h6 {
+hyphens: none !important;
+}
+
+
+
+.elementor-kit-15{
+    --theme-color-input_bg_color: rgba(0, 0, 0, 0) !important;
+    --theme-color-input_bg_hover: rgba(0, 0, 0, 0) !important;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'The Seasons';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../../2024/07/The-Seasons.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
